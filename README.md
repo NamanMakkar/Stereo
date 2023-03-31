@@ -18,7 +18,7 @@ Run 'nosetests -v' in the project directory to run the unit tests.
 
 ### Execution Time
 
-The plane sweep stereo algorithm took 10.31 seconds to execute. We would like to be considered for _extra credit_.
+The plane sweep stereo algorithm took 10.31 seconds to execute. 10x faster than the baseline of 100s.
 
 ### Results
 
