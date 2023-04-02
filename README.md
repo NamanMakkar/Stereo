@@ -5,8 +5,9 @@
 
 project page: https://www.cs.cornell.edu/courses/cs5670/2023sp/projects/pa4/
 
-## Download the datasets-
-Run 'sh download.sh' in the data directory to download the required datasets
+## Downloading the dataset
+
+Run 'sh download.sh' in the data directory to download the required datasets. For macbook, kindly run 'brew install wget' to make sure you have 'wget' to fetch the datasets.
 
 ## Testing
 
@@ -14,11 +15,11 @@ Run 'nosetests -v' in the project directory to run the unit tests.
 
 # README.md
 
-## Project: Plane Sweep Stereo
+## Project: Implementation of Photometric Stereo and Plane Sweep Stereo
 
 ### Execution Time
 
-The plane sweep stereo algorithm took 10.31 seconds to execute. 10x faster than the baseline of 100s.
+The plane sweep stereo algorithm took 10.31 seconds to execute. This is 10x faster than the required baseline of 100s. We would like to be considered for _extra credit_.
 
 ### Results
 
@@ -34,6 +35,16 @@ To view the results, please refer to the images below, which are located in the 
 -   ![tentacle_ncc.png](./output/tentacle_ncc.png)
 -   ![tentacle_normals.png](./output/tentacle_normals.png)
 -   ![tentacle_projected.gif](./output/tentacle_projected.gif)
+
+### Mesh
+
+The screenshots of the Mesh are also located in the `output/` directory of the repository:
+
+
+-   ![flowers_meshlab_depth.png](./output/flowers_meshlab_depth.png)
+-   ![meshlab_cat_normals.png](./output/meshlab_cat_normals.png)
+-   ![meshlab_tentacle_both.png](./output/meshlab_tentacle_both.png)
+-   ![meshlab_tentacle_depth.png](./output/meshlab_tentacle_depth.png)
 
 ## Implemented Functions
 
@@ -77,3 +88,7 @@ The output folder contains the following files:
 -   tentacle_normals.npy
 -   tentacle_normals.png
 -   tentacle_projected.gif
+-   flowers_meshlab_depth.png
+-   meshlab_cat_normals.png
+-   meshlab_tentacle_both.png
+-   meshlab_tentacle_depth.png
